@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="tile"><rect width="32" height="32" rx="7"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect class="paper" width="32" height="32" fill="#fafafa"/>
+    <path class="wax" fill="#9a3412" d="M12 32h20V12z"/>
+  </g>
+  <rect class="edge" x="1.25" y="1.25" width="29.5" height="29.5" rx="6.2" fill="none" stroke="#171717" stroke-width="2.5"/>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .paper { fill: #141415; }
+      .wax { fill: #e7b5a0; }
+      .edge { stroke: #e7b5a0; }
+    }
+  </style>
+</svg>
